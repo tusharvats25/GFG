@@ -1,0 +1,10 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/kth-smallest-number-in-multiplication-table/1?_gl=1*76hsnm*_up*MQ..&gclid=CjwKCAiAkp6tBhB5EiwANTCx1EBUrKLHffbVZtT-wOWSiYc3MRunbo8ZNvuhqKSx9sHLyXXXnR-r5hoCWhAQAvD_BwE">Kth Smallest Number in Multiplication Table</a></h2><h3>Difficulty Level : Difficulty: Hard</h3><hr><div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given three integers <strong>m, n </strong>and<strong> k</strong>. Consider a grid of <strong>m * n</strong>, where <strong>mat[i][j] = i * j</strong> (1 based index). The task is to return the <strong>k<sup>th</sup></strong> smallest element in the <strong>m * n</strong>&nbsp;multiplication table.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples :</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>m = 3, n = 5, k = 7
+<strong>Output: </strong>4
+<strong>Explanation:</strong> 
+<img style="height: 183px; width: 295px;" src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/895764/Web/Other/matrix  3_1752732959.webp" alt="">
+Sorted form of all the element of this matrix is [1, 2, 2, 3, 3, 4, 4, 5, 6, 6, 8, 9, 10, 12, 15] and the </span><span style="font-size: 14pt;">7<sup style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">th </sup>smallest element is 4.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>m = 2, n = 2, k = 3
+<strong>Output: </strong>2<br><strong>Explanation: <br><img src="https://media.geeksforgeeks.org/img-practice/prod/addEditProblem/895764/Web/Other/blobid0_1752733555.webp" width="132" height="134"><br></strong>Sorted form of all the element of this matrix is [1, 2, 2, 4] and 3rd smallest element </span><span style="font-size: 14pt;">is 2.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ m, n ≤ 3 * 10<sup>4</sup><br>1 ≤ k ≤ m * n</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Binary Search</code>&nbsp;<code>Algorithms</code>&nbsp;
